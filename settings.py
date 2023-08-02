@@ -1,4 +1,4 @@
-base_architecture = 'vgg19'
+base_architecture = 'densenet121'
 img_size = 224
 prototype_shape = (2000, 128, 1, 1)
 num_classes = 200
@@ -7,10 +7,10 @@ add_on_layers_type = 'regular'
 
 experiment_run = '003'
 
-data_path = './datasets/cub200_cropped/'
-train_dir = data_path + 'train_cropped_augmented/'
+data_path = '/content/drive/MyDrive/dataset-new/birds/prototype/'
+train_dir = data_path + 'train_cropped/'
 test_dir = data_path + 'test_cropped/'
-train_push_dir = data_path + 'train_cropped/'
+train_push_dir = data_path + 'aug/'
 train_batch_size = 80
 test_batch_size = 100
 train_push_batch_size = 75
