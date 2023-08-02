@@ -8,9 +8,9 @@ add_on_layers_type = 'regular'
 experiment_run = '003'
 
 data_path = '/content/drive/MyDrive/dataset-new/birds/prototype/'
-train_dir = data_path + 'train_cropped/'
+train_dir = data_path + 'aug/'
 test_dir = data_path + 'test_cropped/'
-train_push_dir = data_path + 'aug/'
+train_push_dir = data_path + 'train_cropped/'
 train_batch_size = 80
 test_batch_size = 100
 train_push_batch_size = 75
