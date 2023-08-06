@@ -12,7 +12,7 @@ train_dir = data_path + 'aug/'
 test_dir = data_path + 'Test/'
 train_push_dir = data_path + 'Train/'
 
-valid_dir = data_path+'Valid/'
+valid_dir = data_path + 'Valid/'
 
 train_batch_size = 80
 test_batch_size = 100
@@ -35,8 +35,4 @@ coefs = {
     'l1': 1e-4,
 }
 
-num_train_epochs = 1000
-num_warm_epochs = 5
-
-push_start = 10
-push_epochs = [i for i in range(num_train_epochs) if i % 10 == 0]
+num_train_epochs = 30
