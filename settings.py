@@ -40,7 +40,4 @@ num_warm_epochs = 5
 
 push_start = 10
 push_epochs = [i for i in range(num_train_epochs) if i % 10 == 0]
-num_warm_epochs = 5
 
-push_start = 10
-push_epochs = [i for i in range(num_train_epochs) if i % 10 == 0]
