@@ -6,7 +6,7 @@ prototype_activation_function = 'log'
 add_on_layers_type = 'regular'
 
 experiment_run = '003'
-
+push_start = 10
 data_path = '/content/drive/MyDrive/dataset-new/birds/ejra/'
 train_dir = data_path + 'aug/'
 test_dir = data_path + 'Test/'
