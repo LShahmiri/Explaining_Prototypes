@@ -8,7 +8,7 @@ add_on_layers_type = 'regular'
 experiment_run = '003'
 push_start = 10
 data_path = '/content/drive/MyDrive/dataset-new/birds/ejra/'
-train_dir = data_path + 'aug/'
+train_dir = '/content/drive/MyDrive/dataset-new/birds/'+ 'aug/'
 test_dir = data_path + 'Test/'
 train_push_dir = data_path + 'Train/'
 
