@@ -1,4 +1,4 @@
-base_architecture = 'densenet121'
+base_architecture = 'vgg19'
 img_size = 224
 prototype_shape = (2000, 128, 1, 1)
 num_classes = 200
@@ -6,14 +6,11 @@ prototype_activation_function = 'log'
 add_on_layers_type = 'regular'
 
 experiment_run = '003'
-push_start = 10
-data_path = '/content/drive/MyDrive/dataset-new/birds/ejra/'
-train_dir = '/content/drive/MyDrive/dataset-new/birds/'+ 'aug/'
-test_dir = data_path + 'Test/'
-train_push_dir = data_path + 'Train/'
 
-valid_dir = data_path + 'Valid/'
-
+data_path = './datasets/cub200_cropped/'
+train_dir = data_path + 'train_cropped_augmented/'
+test_dir = data_path + 'test_cropped/'
+train_push_dir = data_path + 'train_cropped/'
 train_batch_size = 80
 test_batch_size = 100
 train_push_batch_size = 75
@@ -35,9 +32,8 @@ coefs = {
     'l1': 1e-4,
 }
 
-num_train_epochs = 30
+num_train_epochs = 1000
 num_warm_epochs = 5
 
 push_start = 10
 push_epochs = [i for i in range(num_train_epochs) if i % 10 == 0]
-
