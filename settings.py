@@ -7,7 +7,6 @@ add_on_layers_type = 'regular'
 
 experiment_run = '003'
 
-data_path = './datasets/cub200_cropped/'
 train_dir = '/content/drive/MyDrive/EM-GMM-PCA-ASLI/Train-aug/'
 test_dir = '/content/drive/MyDrive/dataset-new/TEST-WRITER-224/test/'
 train_push_dir = '/content/drive/MyDrive/EM-GMM-PCA-ASLI/train/'
