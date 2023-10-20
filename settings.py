@@ -1,4 +1,4 @@
-base_architecture = 'xception'
+base_architecture = 'resnet152'
 img_size = 224
 prototype_shape = (2000, 128, 1, 1)
 num_classes = 200
